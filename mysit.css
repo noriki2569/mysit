@@ -31,3 +31,22 @@ header {
   padding: 0 30px;
 }
 
+.main-visual {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: 100% 100%;
+  background-position: bottom;
+}
+.main-visual-content {
+  text-align: center;
+  padding-top: 200px;
+}
+.main-visual-text1 {
+  color: #FAFAFA;
+  font-size: 64px;
+}
+.main-visual-text2 {
+  padding-top: 10px;
+  color: #FAFAFA;
+  font-size: 20px;
+}
