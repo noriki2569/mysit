@@ -50,3 +50,23 @@ header {
   color: #FAFAFA;
   font-size: 20px;
 }
+.portfolio {
+  background-color: #ECEFF1;
+  height: 841px;
+}
+.portfolio-content {
+  width: 920px;
+  margin: 0 auto;
+}
+.portfolio-text1 {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+.line {
+  border-bottom: solid 3px #EC715F;
+}
+.portfolio-text2 {
+
+}
