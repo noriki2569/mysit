@@ -63,10 +63,34 @@ header {
   color: #000000;
   padding-top: 90px;
   text-align: center;
+  position: relative;
 }
-.line {
-  border-bottom: solid 3px #EC715F;
+.portfolio-text1:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%);
+  background-color: #EC715F;
 }
+/*.line {*/
+/*  border-bottom: solid 3px #EC715F;*/
+/*}*/
 .portfolio-text2 {
-
+  font-size : 16px;
+  color :#000000;
+  padding-top: 30px;
+  text-align: center;
+}
+.image-box {
+  height: 250px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
 }
